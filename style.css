@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+}
+
+.body.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+.header__container {
+    max-width: 1900px;
+    height: 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background: linear-gradient(177.38deg, #5A82E8 -0.04%, #0E135E 81.23%, #020148 120.65%);
+    border-radius: 35px;
+    color: aliceblue;
+    margin-bottom: 286px;
+    margin: 0 auto;
+}
+
+.header__line {
+    position: relative;
+    border-bottom: 2px solid white;
+    padding: 0 20px;
+    width: 1860;
+    top: -56px;
+}
+
+.header__logo {
+    padding-left: 20;
+
+}
+
+.header__manu {
+    padding-right: 20px;
+    display: flex;
+}
+
+.manu__items {
+    display: flex
+}
+
+.manu__item {
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.header__circles {
+    display: flex;
+    margin-right: 70px;
+
+}
+
+.circle__one {
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(177.38deg, #5A82E8 -0.04%, #0E135E 81.23%, #020148 120.65%);
+    border-radius: 50%;
+    transform: translate(85%);
+    transition: transform 0.5s ease, background-color 0, 5s;
+}
+
+.circle__one.black-theme {
+    transform: translateX(80px);
+    background-color: #080808;
+}
+
+.circle__two {
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.container {
+    border: 2px solid rgb(0, 0, 0);
+    width: 896px;
+    height: 629px;
+    border-radius: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section__about-me {
+    margin-top: 150px;
+}
+
+.about-me-title {
+    margin-top: 20px;
+    font-size: 64px;
+}
+
+.conteiner__skl {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.skill__area {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.my-ckills__conternier {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+
+.play__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1020px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.rout__triangle {
+    background-image: url('./img/tapHere.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 225px;
+    position: absolute;
+    transform: translate(40%, 40%);
+    z-index: 0;
+}
+.phone{
+    font-size: 24px;
+    min-width: 250px;
+    margin-top: 40px;
+}
+@keyframes animation {
+    0% {
+        background-color: red;
+        transform: rotateY(20deg);
+        transform: scale(1.0);
+    }
+
+    50% {
+        background-color: rgb(8, 8, 165);
+        transform: rotateY(20deg);
+        transform: scale(1.2);
+    }
+}
+
+.route__fortune {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 40px;
+    border-radius: 50%;
+    background: linear-gradient(177.38deg, #5A82E8 -0.04%, #0E135E 81.23%, #020148 120.65%);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contacts__section {
+    background: linear-gradient(177.38deg, #5A82E8 -0.04%, #0E135E 81.23%, #020148 120.65%);
+    width: 1200px;
+    height: 660px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 80px;
+    color: azure;
+    font-size: 36px;
+}
+
+.top__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 167px 20px 167px;
+}
+
+.contacts__inp {
+    border: none;
+    background-color: rgba(100, 200, 200, 0);
+    height: 140px;
+}
+
+.contacts__inp:last-child {}
+
+.contacts__inp::placeholder {
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: white;
+}
+
+.footer__container {
+    height: 150px;
+    margin: 0 auto;
+    background: linear-gradient(177.38deg, #5A82E8 -0.04%, #0E135E 81.23%, #020148 120.65%);
+    border-radius: 30px;
+    margin-top: 100px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 50px;
+}
